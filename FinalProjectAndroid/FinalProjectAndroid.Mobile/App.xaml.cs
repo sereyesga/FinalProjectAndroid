@@ -8,7 +8,7 @@ namespace FinalProjectAndroid.Mobile
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new PeopleView());
+            MainPage = new NavigationPage(new TabbedView());
         }
     }
 }

@@ -2,11 +2,11 @@ using FinalProjectAndroid.Mobile.MVVM.ViewModels;
 
 namespace FinalProjectAndroid.Mobile.MVVM.Views;
 
-public partial class PeopleView : ContentPage
+public partial class PersonView : ContentPage
 {
-	public PeopleView()
+	public PersonView()
 	{
 		InitializeComponent();
-		BindingContext = new PeopleViewModel(this.Navigation);
+		BindingContext = new PersonViewModel();
 	}
 }
