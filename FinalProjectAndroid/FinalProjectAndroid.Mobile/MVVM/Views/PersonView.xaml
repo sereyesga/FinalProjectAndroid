@@ -48,7 +48,8 @@
                         <Entry TextColor="Black" Placeholder="Ingrese el correo electrónico" PlaceholderColor="Gray" Text="{Binding Email}" Keyboard="Email"/>
                     </StackLayout>
                 </Frame>
-                <Button Text="Guardar" Command="{Binding SaveCommand}" BackgroundColor="Blue" TextColor="White" CornerRadius="10" HeightRequest="50" WidthRequest="150" FontSize="18" Margin="10,20,10,0" IsEnabled="{Binding IsEnabled}"/>
+                <ActivityIndicator IsRunning="{Binding IsRunning}" IsVisible="{Binding IsRunning}" Color="#512BD4" WidthRequest="100" HeightRequest="100" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0.5,0.5"/>
+                <Button Text="Guardar" Command="{Binding SavePersonCommand}" BackgroundColor="#512BD4" TextColor="White" CornerRadius="10" HeightRequest="50" WidthRequest="150" FontSize="18" Margin="10,20,10,0" IsEnabled="{Binding IsEnabled}"/>
             </StackLayout>
         </ScrollView>
     </ContentPage.Content>

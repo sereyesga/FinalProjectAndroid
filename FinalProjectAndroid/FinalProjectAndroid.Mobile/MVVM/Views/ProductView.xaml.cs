@@ -1,8 +1,8 @@
 namespace FinalProjectAndroid.Mobile.MVVM.Views;
 
-public partial class CategoriesView : ContentPage
+public partial class ProductView : ContentPage
 {
-	public CategoriesView()
+	public ProductView()
 	{
 		InitializeComponent();
 	}

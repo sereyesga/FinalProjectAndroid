@@ -5,7 +5,7 @@
              Title="Productos">
 
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="plus" Command="{Binding NewPersonCommand}"/>
+        <ToolbarItem IconImageSource="plus" Command="{Binding NewPropductCommand}"/>
     </ContentPage.ToolbarItems>
     
     <VerticalStackLayout>

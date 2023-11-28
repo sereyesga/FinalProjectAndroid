@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FinalProjectAndroid.Mobile.MVVM.Views.CategoriesView"
-             Title="Categorías">
-
-    <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="plus" Command="{Binding NewPersonCommand}"/>
-    </ContentPage.ToolbarItems>
+             x:Class="FinalProjectAndroid.Mobile.MVVM.Views.ProductView"
+             Title="ProductView">
     <VerticalStackLayout>
         <Label 
             Text="Welcome to .NET MAUI!"

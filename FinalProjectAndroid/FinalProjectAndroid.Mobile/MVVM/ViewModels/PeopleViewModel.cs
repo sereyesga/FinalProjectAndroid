@@ -16,15 +16,16 @@ namespace FinalProjectAndroid.Mobile.MVVM.ViewModels
 
         private async Task ExecuteNewPersonCommand()
         {
-            TitlePage titlePage = new TitlePage()
-            {
-                Title = "Nueva persona"
-            };
+            //TitlePage titlePage = new TitlePage()
+            //{
+            //    Title = "Nueva persona"
+            //};
 
-            await _navigation.PushAsync(new PersonView
-            {
-                BindingContext = titlePage
-            });
+            //await _navigation.PushAsync(new PersonView
+            //{
+            //    BindingContext = titlePage
+            //});
+            await _navigation.PushAsync(new PersonView());
         }
     }
 }

@@ -2,11 +2,11 @@ using FinalProjectAndroid.Mobile.MVVM.ViewModels;
 
 namespace FinalProjectAndroid.Mobile.MVVM.Views;
 
-public partial class ProductsView : ContentPage
+public partial class CountryView : ContentPage
 {
-	public ProductsView()
+	public CountryView()
 	{
 		InitializeComponent();
-		BindingContext = new ProductsViewModel(this.Navigation);
+		BindingContext = new CountryViewModel();
 	}
 }
